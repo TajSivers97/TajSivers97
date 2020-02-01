@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="FinalProject.css" type="text/css" rel="stylesheet">
+        <title>Lifestyle Barbados</title>
+    </head>
+    <body>
+        <script src="FinalProject.js"></script>
+        <div class="HeaderImage">
+            <p>
+                <h1 style="color: white;">Welcome to Lifestyle Barbados.</h1><br>
+                <h3 style="color: white;">We gladly serve as the one stop shop for all you need to know about your current or soon-to-be vacation on our beautiful island. <br>
+                Our navigation bar below provides all the necessary tools for you to plan the trip of your lives.</h3>
+                <h4 style="color: white;">Enjoy your stay..</h4>
+                <br>
+                <br>
+            </p>
+        </div>
+        <nav class ="DivBar">
+            <ul class="NavBar">
+                <li class="active" ><a href="FinalProject.html">HOME</a></li>
+                <li><a href="DINING.html">DINING</a></li>
+                <li><a href="Entertainment.html">ENTERTAINMENT</a></li>
+                
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <form name="PageForm" onsubmit="return validateForm()" method="post">
+            <h3>First Name:</h3>
+            <input type="text" name="firstname" value="" style="width: 40%;">
+            <br>
+            <h3>Last Name:</h3>
+            <input type="text" name="lastname" value="" style="width: 40%;">
+            <br>
+            <h3>Email Address:</h3>
+            <input type="email" name="Email" value="" style="width: 60%;">
+            <br>
+            <h3>FAQ:</h3>
+            <input id="textarea" type="text" name="FAQ" value="" style="width: 60%">
+            <br><br>
+            <input id="submitButton" type="submit" value="Submit">
+        </form>
+        <div class="footer">
+            &copy; All Rights Reserved.
+          </div>
+          <footer>
+            <script src="FinalProject.js"></script>
+          </footer>
+    </body>
+</html>

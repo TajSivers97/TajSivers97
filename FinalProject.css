@@ -1,0 +1,179 @@
+
+.HeaderImage{
+    background-image: url(file:///Users/tajsivers/Desktop/george-brown-college/FULL%20STACK%20DEVELOPMENT%20I/FINAL%20PROJECT/c082b6180368a172f0b301fe2054c707-700.jpg);
+    height: 20%;
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+  }
+
+.DivBar{
+    background-color: darkblue;
+    
+}
+
+
+.NavBar{
+    /* Take out the bullet points from the list*/
+    list-style-type: none;
+    padding: 0; 
+    overflow: hidden;
+    text-align: center;
+}
+
+li{
+    padding: 20px;
+    background-color: darkblue;
+    float: left; /* makes lists blocks appear connected*/
+    display: inline;
+}
+
+li a{
+    display: block; /* Makes the whole block clickable for the link*/
+    color: white; /* Makes the link text white.*/
+    text-align: center;
+    text-decoration: none; /* removes all decoration of links (underline)*/
+}
+
+li:hover:not(.active){
+    background-color: deepskyblue;
+}
+
+.active{
+    background-color: gold;
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+/* Column Code*/
+
+  .header{
+    background-color: darkblue;
+    height: 100px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  container div{
+    padding:1%;
+    box-sizing: border-box;
+    min-height: 500px;
+  }
+  
+  .left-col, .right-col{
+    background-color: darkblue;
+    width: 25%;
+    float: left;
+    color: white;
+  }
+  
+  .center-col{
+    background-color: gold;
+    width: 50%;
+    float: left;
+  }
+  
+  .footer{
+    background-color: darkblue;
+    text-align: center;
+    height: 33.33%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    clear: both;
+    color: white;
+  }
+/*COLUMN CODE ENDS HERE.*/
+
+/* Styling of Images below text*/
+.ResizeImage{
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.left-col, .right-col img{
+    width: 25%;
+}
+
+.center-col img{
+    width:50%
+}
+
+#bussa{
+    width: fit-content;
+}
+
+#bumbu{
+    width: auto;
+}
+
+#beaches{
+    width: -webkit-fill-available;
+}
+
+/* Dining page image styling */
+.ImageRow{
+    display: flex;
+    flex-wrap: wrap; /* Defines how items are forced on the page. makes images go on next to each other on multiple lines*/
+    padding: 0 4px;
+}
+
+.ImageColumn{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.ImageColumn img{
+    margin-top: 8px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+
+/* Forms Styling */
+input{
+    border: 2px solid blue;
+    border-radius: 4px;
+    
+}
+
+input[type=text]:focus{
+    background-color: gold;
+}
+
+input[type=email]:focus{
+    background-color: gold;
+}
+
+#textarea{
+    width: 60%;
+    height: 150px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: blue;
+    resize: none;
+}
+
+input[type=submit]{
+    width: 30%;
+    height: 40px;
+    background-color: gold;
+    color: black;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover{
+    background-color: gray;
+}
